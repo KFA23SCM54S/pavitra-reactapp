@@ -25,7 +25,7 @@ import React, { useState, useEffect } from 'react';
 export function Requirement1(){
   return (
     <div class="main-div">
-      <h1>Requirement 1: A Line Chart to plot the issues for every Repo</h1>
+      <h1>Requirement 2: A Line Chart to plot the issues for every Repo</h1>
       <FetchAPI URL="https://flaskappspm-hij6xhfi2q-uc.a.run.app//fetch/issuesline" />
     </div>
   )
@@ -34,7 +34,7 @@ export function Requirement1(){
 export function Requirement2(){
   return (
     <div class="main-div">
-    <h1>Requirement 2: A Bar Chart to plot the issues created for every month for every Repo</h1>
+    <h1>Requirement 3: A Bar Chart to plot the issues created for every month for every Repo</h1>
     <div class="grid-container">
       <FetchAPI class="grid-item" URL="https://flaskappspm-hij6xhfi2q-uc.a.run.app/fetch/issues/created/repo=1" />
       <FetchAPI class="grid-item" URL="https://flaskappspm-hij6xhfi2q-uc.a.run.app/fetch/issues/created/repo=2" />
@@ -48,7 +48,7 @@ export function Requirement2(){
 export function Requirement3(){
   return (
     <div class="main-div">
-    <h1>Requirement 3: A Bar Chart to plot the stars for every Repo</h1>
+    <h1>Requirement 4: A Bar Chart to plot the stars for every Repo</h1>
       <FetchAPI class="grid-item" URL="https://flaskappspm-hij6xhfi2q-uc.a.run.app/fetch/stars" />
   </div>
 )
@@ -57,7 +57,7 @@ export function Requirement3(){
 export function Requirement4(){
   return (
     <div class="main-div">
-    <h1>Requirement 4: A Bar Chart to plot the forks for every Repo</h1>
+    <h1>Requirement 5: A Bar Chart to plot the forks for every Repo</h1>
       <FetchAPI class="grid-item" URL="https://flaskappspm-hij6xhfi2q-uc.a.run.app/fetch/forks" />
   </div>
 )
@@ -65,7 +65,7 @@ export function Requirement4(){
 export function Requirement5() {
   return (
     <div class="main-div">
-      <h1>Requirement 5: A Bar Chart to plot the issues closed for every week for everyRepo</h1>
+      <h1>Requirement 6: A Bar Chart to plot the issues closed for every week for everyRepo</h1>
       <div class="grid-container">
         {[...Array(5).keys()].map((repo) => (
           <FetchAPI class="grid-item" key={repo + 1} URL={`https://flaskappspm-hij6xhfi2q-uc.a.run.app/fetch/issues/closed/repo=${repo + 1}`} />
@@ -78,7 +78,7 @@ export function Requirement5() {
 export function Requirement6(){
   return (
     <div class="main-div">
-    <h1>Requirement 6: A Stack-Bar Chart to plot the created and closed issues for every Repo</h1>
+    <h1>Requirement 7: A Stack-Bar Chart to plot the created and closed issues for every Repo</h1>
       <FetchAPI class="grid-item" URL="https://flaskappspm-hij6xhfi2q-uc.a.run.app/fetch/issues/stacked" />
   </div>
   )
