@@ -25,7 +25,7 @@ import React, { useState, useEffect } from 'react';
 export function Requirement1(){
   return (
     <div class="main-div">
-      <h1>Requirement 2: A Line Chart to plot the issues for every Repo</h1>
+      <h1> Part_1 Requirement 2: A Line Chart to plot the issues for every Repo</h1>
       <FetchAPI URL="https://flaskappspm-hij6xhfi2q-uc.a.run.app//fetch/issuesline" />
     </div>
   )
@@ -93,17 +93,17 @@ export function Requirement8_1(){
       <h1>Requirement 8.1 & 9.1 & 10.1</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.1 - Repository: {repos[repo]}</h2>
+            <h2>8.1 & 9.1 & 10.1 - Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3> 8.1 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.1/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3> 10.1 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.1/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.1 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.1/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -115,20 +115,20 @@ export function Requirement8_1(){
 export function Requirement8_2(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.2</h1>
+      <h1>Requirement 8.2 & 9.2 & 10.2</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.2 - Repository: {repos[repo]}</h2>
+            <h2>8.2 & 9.2 & 10.2- Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.2 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.2/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.2 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.2/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.2 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.2/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -140,20 +140,20 @@ export function Requirement8_2(){
 export function Requirement8_3(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.3</h1>
+      <h1>Requirement 8.3 & 9.3 & 10.3</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.3 - Repository: {repos[repo]}</h2>
+            <h2>8.3 & 9.3 & 10.3 - Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.3 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.3/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.3 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.3/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.3 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.3/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -165,20 +165,20 @@ export function Requirement8_3(){
 export function Requirement8_4(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.4</h1>
+      <h1>Requirement 8.4 & 9.4 & 10.4</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.4 - Repository: {repos[repo]}</h2>
+            <h2>8.4 & 9.4 & 10.4 - Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.4 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.4/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.4 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.4/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.4 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.4/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -190,20 +190,20 @@ export function Requirement8_4(){
 export function Requirement8_5(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.5</h1>
+      <h1>Requirement 8.5 & 9.5 & 10.5</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.5 - Repository: {repos[repo]}</h2>
+            <h2>8.5 & 9.5 & 10.5- Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.5 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.5/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.5 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.5/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.5 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.5/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -215,20 +215,20 @@ export function Requirement8_5(){
 export function Requirement8_6(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.6</h1>
+      <h1>Requirement 8.6 & 9.6 & 10.6</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.6 - Repository: {repos[repo]}</h2>
+            <h2>8.6 & 9.6 & 10.6- Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.6 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.6/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.6 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.6/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.6 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.6/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -239,20 +239,20 @@ export function Requirement8_6(){
 export function Requirement8_7(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.7</h1>
+      <h1>Requirement 8.7 & 9.7 & 10.7</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.7 - Repository: {repos[repo]}</h2>
+            <h2>8.7 & 9.7 & 10.7 - Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.7 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.7/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.7 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.7/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.7 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.7/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -263,20 +263,20 @@ export function Requirement8_7(){
 export function Requirement8_8(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.8</h1>
+      <h1>Requirement 8.8 & 9.8 & 10.8</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.8 - Repository: {repos[repo]}</h2>
+            <h2>8.8 & 9.8 & 10.8- Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.8 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.8/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.8 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.8/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.8 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.8/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -287,20 +287,20 @@ export function Requirement8_8(){
 export function Requirement8_9(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.9</h1>
+      <h1>Requirement 8.9 & 9.9 & 10.9</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.9 - Repository: {repos[repo]}</h2>
+            <h2>8.9 & 9.9 & 10.9 - Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.9 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.9/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.9 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.9/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.9 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.9/reponum=${repo + 1}`} />
             </div>
           </div>
@@ -311,20 +311,20 @@ export function Requirement8_9(){
 export function Requirement8_10(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.10</h1>
+      <h1>Requirement 8.10 & 9.10 & 10.10</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
-            <h2>8.10 - Repository: {repos[repo]}</h2>
+            <h2>8.10 & 9.10 & 10.10 - Repository: {repos[repo]}</h2>
             <div class="grid-container">
-            <h3>LSTM Forecasting</h3>
+            <h3>8.10 LSTM Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/lstm/8.10/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>StatsModel Forecasting</h3>
+            <h3>10.10 StatsModel Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/sm/8.10/reponum=${repo + 1}`} />
             </div>
             <div class="grid-container">
-            <h3>Prophet Forecasting</h3>
+            <h3>9.10 Prophet Forecasting</h3>
             <FetchAPI class="grid-item" URL={`${server_url}/fetch/ph/8.10/reponum=${repo + 1}`} />
             </div>
           </div>
