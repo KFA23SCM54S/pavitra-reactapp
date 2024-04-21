@@ -90,7 +90,7 @@ let server_url = "https://forecastflaskapp-lwfb57gjeq-uc.a.run.app";
 export function Requirement8_1(){
   return (
     <div class="main-div">
-      <h1>Requirement 8.1</h1>
+      <h1>Requirement 8.1 & 9.1 & 10.1</h1>
         {[...Array(5).keys()].map((repo) => (
           <div>
             <h2>8.1 - Repository: {repos[repo]}</h2>
